@@ -70,7 +70,7 @@
             </select>
 
             <label for="userState">Estado:</label>
-            <select name="userState">
+            <select name="userState" required>
                 <option value="">Selecione seu estado</option>
                 <option value="AC">Acre</option>
                 <option value="AL">Alagoas</option>
@@ -105,9 +105,15 @@
               <input type="text" name="cidade">
 
 
-           </fieldset> 
+            </fieldset> 
             
-    
+            <fieldset>
+                <legend>Hábitos</legend>
+                <p>Redes Sociais:</p>
+                <input type="checkbox" name="social" value="instagram">
+                <label for="social">Instagram</label>
+                <br>
+            </fieldset>
               <button type="submit">Enviar</button>
         </form>
     
